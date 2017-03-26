@@ -4,7 +4,7 @@ angular.module('mainApp',['ui.router'])
     $stateProvider
       .state('home', {
         url: '/home',
-		    templateUrl: '/Home.html',
+		    templateUrl: '/PersonalWebsite/Home.html',
         controller: 'HomeCtrl'
       })
       .state('skills', {
