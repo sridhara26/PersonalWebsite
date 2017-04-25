@@ -3,16 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Sridhar Avancha</title>
-  <script>
-    // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
-    (function(){
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script>
+  <base href="/">
   <script src="//use.fontawesome.com/e7925e1c98.js"></script>
   <script src="//code.angularjs.org/1.2.13/angular.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
