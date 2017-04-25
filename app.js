@@ -1,6 +1,5 @@
 angular.module('mainApp',['ui.router'])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-    $locationProvider.html5Mode(true).hashPrefix('!');
     $urlRouterProvider.otherwise('/home');
     $stateProvider
       .state('home', {
